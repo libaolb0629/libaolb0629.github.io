@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git设置代理</title>
+    <url>/2019/11/24/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</url>
+    <content><![CDATA[<h2 id="git设置代理"><a href="#git设置代理" class="headerlink" title="git设置代理"></a>git设置代理</h2><h3 id="http代理"><a href="#http代理" class="headerlink" title="http代理"></a>http代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global https.proxy http://127.0.0.1:1080</span><br><span class="line">git config --global https.proxy https://127.0.0.1:1080</span><br></pre></td></tr></table></figure><a id="more"></a>
+<h3 id="sock5设置代理"><a href="#sock5设置代理" class="headerlink" title="sock5设置代理"></a>sock5设置代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy socks5://127.0.0.1:1080</span><br><span class="line">git config --global https.proxy socks5://127.0.0.1:1080</span><br></pre></td></tr></table></figure>
+<p>使用cmd或者git bash走的应该是sock5协议</p>
+<h4 id="取消代理"><a href="#取消代理" class="headerlink" title="取消代理"></a>取消代理</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global --unset</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>后端技术</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows常用的快捷键</title>
+    <url>/2019/11/24/windows%E5%B8%B8%E7%94%A8%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<p><strong>windows常用快捷方式</strong></p>
+<a id="more"></a>
+
+
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CTRL+SHIRT+N</td>
+<td>新建文件夹</td>
+</tr>
+<tr>
+<td>CTRL+C</td>
+<td>复制</td>
+</tr>
+<tr>
+<td>CTRL+V</td>
+<td>粘贴</td>
+</tr>
+<tr>
+<td>CTRL+W</td>
+<td>关闭窗口</td>
+</tr>
+<tr>
+<td>CTRL+R</td>
+<td>打开运行</td>
+</tr>
+<tr>
+<td>WINDOWS+W</td>
+<td>回到桌面</td>
+</tr>
+<tr>
+<td>WINDOWS+V</td>
+<td>打开粘贴板</td>
+</tr>
+<tr>
+<td>WINDOWS+W</td>
+<td>打开截图和草图</td>
+</tr>
+<tr>
+<td>WINDOWS+G</td>
+<td>打开XBOX录屏</td>
+</tr>
+</tbody></table>
+<ul>
+<li>第一次更新 2019-11-24 </li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
+        <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Django命令</title>
     <url>/2019/11/23/Django%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p>记录django开发过程中使用过的命令</p>
