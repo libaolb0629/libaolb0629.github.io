@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>常用的一些优秀手机及PC软件</title>
+    <url>/2019/12/03/%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E6%89%8B%E6%9C%BA%E5%8F%8APC%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h3 id="手机软件"><a href="#手机软件" class="headerlink" title="手机软件"></a>手机软件</h3><ul>
+<li>微软Todo</li>
+<li>滴答清单</li>
+<li>钱迹</li>
+<li>微软office、word, excel,onedrive<a id="more"></a>
+<h3 id="PC软件"><a href="#PC软件" class="headerlink" title="PC软件"></a>PC软件</h3></li>
+<li>软媒桌面 时间插件</li>
+<li>typro</li>
+<li>vscode</li>
+<li>snipaste</li>
+<li>windows terminal</li>
+<li>微软Todo (微软商店可以下载)</li>
+<li>everything</li>
+<li>火绒</li>
+<li>fliqlo</li>
+<li>bandzip</li>
+<li>腾讯桌面整理</li>
+</ul>
+]]></content>
+      <categories>
+        <category>前端技术</category>
+        <category>后端技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于screen查找不到cuda环境</title>
     <url>/2019/11/26/%E5%85%B3%E4%BA%8Escreen%E6%9F%A5%E6%89%BE%E4%B8%8D%E5%88%B0cuda%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<p>解决办法：<br>将LD_LIBRARY_PATH环境变量增加到~/.bashrc文件中去</p>]]></content>
