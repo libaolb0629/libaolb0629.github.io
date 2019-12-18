@@ -120,26 +120,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Django命令</title>
-    <url>/2019/11/23/Django%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>记录django开发过程中使用过的命令</p>
-<h3 id="1-创建一个django项目"><a href="#1-创建一个django项目" class="headerlink" title="1. 创建一个django项目"></a>1. 创建一个django项目</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">django-admin startproject site</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="2-创建一个应用"><a href="#2-创建一个应用" class="headerlink" title="2. 创建一个应用"></a>2. 创建一个应用</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python manage.py startapp polls #创建一个应用</span><br></pre></td></tr></table></figure>
-<h3 id="3-启动项目"><a href="#3-启动项目" class="headerlink" title="3. 启动项目"></a>3. 启动项目</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python manage.py runserver 8000 #端口号</span><br></pre></td></tr></table></figure>
-<h3 id="4-生成迁移"><a href="#4-生成迁移" class="headerlink" title="4. 生成迁移"></a>4. 生成迁移</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python manage.py makemigrations</span><br></pre></td></tr></table></figure>
-<h3 id="5-运行迁移"><a href="#5-运行迁移" class="headerlink" title="5. 运行迁移"></a>5. 运行迁移</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python manage.py migrate</span><br></pre></td></tr></table></figure>
-<h3 id="6-生成管理员账户"><a href="#6-生成管理员账户" class="headerlink" title="6. 生成管理员账户"></a>6. 生成管理员账户</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python manage.py createsuperuser</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>后端技术</category>
-      </categories>
-      <tags>
-        <tag>django</tag>
-        <tag>后端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>几个壁纸网站</title>
     <url>/2019/11/23/%E5%87%A0%E4%B8%AA%E5%A3%81%E7%BA%B8%E7%BD%91%E7%AB%99/</url>
     <content><![CDATA[<ul>
