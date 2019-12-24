@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>解决pipenv慢的问题</title>
+    <url>/2019/12/24/%E8%A7%A3%E5%86%B3pipenv%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>使用pipenv安装Python第三方库的时候经常lock比较慢，这是因为，默认是用国外源来下载的。<br>这时我们换成国内源就会快很多。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">url = &quot;https://pypi.tuna.tsinghua.edu.cn/simple/&quot; #将网址换成清华源url = &quot;https://pypi.tuna.tsinghua.edu.cn/simple/&quot;</span><br></pre></td></tr></table></figure><a id="more"></a>
+
+<p>试试看，解决它。但是还是感觉用的也不是体验很好</p>
+]]></content>
+      <categories>
+        <category>前端技术</category>
+        <category>后端技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常用的一些优秀手机及PC软件</title>
     <url>/2019/12/03/%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E6%89%8B%E6%9C%BA%E5%8F%8APC%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h3 id="手机软件"><a href="#手机软件" class="headerlink" title="手机软件"></a>手机软件</h3><ul>
