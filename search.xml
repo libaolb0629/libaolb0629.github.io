@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>centos中设置开机自启程序</title>
+    <url>/2020/01/08/centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<blockquote>
+<p>centos中设置开机自启</p>
+</blockquote><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">修改 /etc/rc.local</span><br></pre></td></tr></table></figure><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>直接修改该文件，重启机器发现并没有启动程序，原因是没有对该文件增加权限。文件中有这句话</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Please note that you must run &apos;chmod +x /etc/rc.d/rc.local&apos; to ensure</span><br><span class="line"># that this script will be executed during boot.</span><br></pre></td></tr></table></figure><a id="more"></a>
+
+
+
+<p>所以对该文件增加权限</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod +x /etc/rc.d/rc.local #两个文件是链接文件</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>前端技术</category>
+        <category>后端技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>解决pipenv慢的问题</title>
     <url>/2019/12/24/%E8%A7%A3%E5%86%B3pipenv%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>使用pipenv安装Python第三方库的时候经常lock比较慢，这是因为，默认是用国外源来下载的。<br>这时我们换成国内源就会快很多。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">url = &quot;https://pypi.tuna.tsinghua.edu.cn/simple/&quot; #将网址换成清华源url = &quot;https://pypi.tuna.tsinghua.edu.cn/simple/&quot;</span><br></pre></td></tr></table></figure><a id="more"></a>

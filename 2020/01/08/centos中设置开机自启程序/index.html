@@ -47,17 +47,18 @@
   };
 </script>
 
-  <meta name="description" content="tool man">
-<meta name="keywords" content="工具人">
-<meta property="og:type" content="website">
-<meta property="og:title" content="工具人的寂寞">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;tags&#x2F;git&#x2F;index.html">
+  <meta name="description" content="centos中设置开机自启 方法1修改 &#x2F;etc&#x2F;rc.local问题直接修改该文件，重启机器发现并没有启动程序，原因是没有对该文件增加权限。文件中有这句话12# Please note that you must run &amp;apos;chmod +x &#x2F;etc&#x2F;rc.d&#x2F;rc.local&amp;apos; to ensure# that this script will be executed du">
+<meta name="keywords" content="前端">
+<meta property="og:type" content="article">
+<meta property="og:title" content="centos中设置开机自启程序">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;08&#x2F;centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F&#x2F;index.html">
 <meta property="og:site_name" content="工具人的寂寞">
-<meta property="og:description" content="tool man">
+<meta property="og:description" content="centos中设置开机自启 方法1修改 &#x2F;etc&#x2F;rc.local问题直接修改该文件，重启机器发现并没有启动程序，原因是没有对该文件增加权限。文件中有这句话12# Please note that you must run &amp;apos;chmod +x &#x2F;etc&#x2F;rc.d&#x2F;rc.local&amp;apos; to ensure# that this script will be executed du">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-01-08T15:25:35.000Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/tags/git/">
+<link rel="canonical" href="http://yoursite.com/2020/01/08/centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F/">
 
 
 <script id="page-configurations">
@@ -65,13 +66,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>标签: git | 工具人的寂寞</title>
+  <title>centos中设置开机自启程序 | 工具人的寂寞</title>
   
 
 
@@ -210,54 +211,142 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">git
-          <small>标签</small>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/08/centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="工具人">
+      <meta itemprop="description" content="tool man">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="工具人的寂寞">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          centos中设置开机自启程序
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-08 23:25:35" itemprop="dateCreated datePublished" datetime="2020-01-08T23:25:35+08:00">2020-01-08</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">前端技术</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">后端技术</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/01/08/centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/01/08/centos%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E7%A8%8B%E5%BA%8F/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
+        <blockquote>
+<p>centos中设置开机自启</p>
+</blockquote><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">修改 /etc/rc.local</span><br></pre></td></tr></table></figure><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>直接修改该文件，重启机器发现并没有启动程序，原因是没有对该文件增加权限。文件中有这句话</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Please note that you must run &apos;chmod +x /etc/rc.d/rc.local&apos; to ensure</span><br><span class="line"># that this script will be executed during boot.</span><br></pre></td></tr></table></figure><a id="more"></a>
+
+
+
+<p>所以对该文件增加权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /etc/rc.d/rc.local #两个文件是链接文件</span><br></pre></td></tr></table></figure>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-11-24T21:20:43+08:00"
-              content="2019-11-24">
-          11-24
-        </time>
+    
+    
+    
+        <div class="reward-container">
+  <div>不需要赞赏，但是可以来一波关注呀~啾咪.</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    点击关注我
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/qrcode_wechat.png" alt="工具人 微信公众号关注 极客花开">
+        <p>微信公众号关注 极客花开</p>
       </div>
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/11/24/git%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/" itemprop="url">
-            <span itemprop="name">git设置代理</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-    </div>
   </div>
+</div>
+
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"><i class="fa fa-tag"></i> 前端</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2019/12/24/%E8%A7%A3%E5%86%B3pipenv%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/" rel="next" title="解决pipenv慢的问题">
+                  <i class="fa fa-chevron-left"></i> 解决pipenv慢的问题
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
   
   
   
 
-  
-
+  </div>
 
 
           </div>
           
+    <div class="comments" id="comments"></div>
 
         </div>
           
@@ -282,6 +371,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#方法"><span class="nav-number">1.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#问题"><span class="nav-number">2.</span> <span class="nav-text">问题</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
